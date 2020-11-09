@@ -1,3 +1,5 @@
-# BDxSEC
+---
+layout: default
+---
 
-BDxSEC = Big Data x Security;
+# BDxSEC = Big Data x Security;
