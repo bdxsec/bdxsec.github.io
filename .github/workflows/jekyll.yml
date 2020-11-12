@@ -25,14 +25,14 @@ jobs:
       uses: easingthemes/ssh-deploy@v2.1.5
       with:
         # Private Key
-        SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
+        SSH_PRIVATE_KEY: ${{ secrets.BDXSEC_CN_SSH_PRIVATE_KEY }}
         # Remote host
-        REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+        REMOTE_HOST: ${{ secrets.BDXSEC_CN_HOST }}
         # Remote user
-        REMOTE_USER: ${{ secrets.REMOTE_USER }}
+        REMOTE_USER: ${{ secrets.BDXSEC_CN_USER }}
         # Source directory
         SOURCE: "_site" # optional, default is 
         # Target directory
-        TARGET: ${{ secrets.TARGET }}
+        TARGET: ${{ secrets.BDXSEC_CN_WEB_PATH }}
         # Arguments to pass to rsync
         ARGS: "-rltgoDzvO" # optional, default is -rltgoDzvO
