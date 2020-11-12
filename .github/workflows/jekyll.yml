@@ -31,7 +31,7 @@ jobs:
         # Remote user
         REMOTE_USER: ${{ secrets.BDXSEC_CN_USER }}
         # Source directory
-        SOURCE: "_site" # optional, default is 
+        SOURCE: "_site/*" # optional, default is 
         # Target directory
         TARGET: ${{ secrets.BDXSEC_CN_WEB_PATH }}
         # Arguments to pass to rsync
