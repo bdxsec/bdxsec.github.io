@@ -26,9 +26,9 @@ titles:
   # @end locale config
 key: page-about
 ---
-<center><image src="/images/bdxsec_logo.png" class="image image--xl" /></center>
+<center><image src="/illustration/2020/bdxsec_logo.png" class="image image--xl" /></center>
 
---- 
+---
 
 在我们日常的工作中，不断的接触大数据相关的内容。然而我们发现，无论是大数据组件，还是整个大数据体系，都没有完善安全机制。诸多组件的管理端口和通信端口都可以被非授权访问。配置Kerberos的认证，无论是搭配Sentry还是Ranger，整个实践过程也并不简单，上下游和其他业务系统的安全对接也是困难重重。
 

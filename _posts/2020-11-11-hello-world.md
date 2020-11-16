@@ -15,8 +15,8 @@ tags: 开篇 blog
 
 <!--more-->
 
-<center><image src="/images/bdxsec_logo.png" class="image image--xl" /></center>
---- 
+<center><image src="/illustration/2020/bdxsec_logo.png" class="image image--xl" /></center>
+---
 
 * **BD** 代表 Big Data ， 即大数据技术；
 * **SEC** 代表 Security， 即安全技术；
