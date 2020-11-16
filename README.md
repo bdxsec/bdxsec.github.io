@@ -1,4 +1,4 @@
-![image](/images/bdxsec_logo.png)
+![image](/illustration/2020/bdxsec_logo.png)
 
 --- 
 
